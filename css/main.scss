@@ -1,0 +1,40 @@
+/* CSS Document */
+@mixin flexbox() {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+@mixin flexalign($align) {
+	-webkit-align-items: $align;
+	-moz-align-items: $align;
+	-ms-align-items: $align;
+	align-items: $align;
+}
+
+@media (min-width: 768px) {
+	.verticaldt
+	{
+		@include flexbox();	
+		@include flexalign(center);	
+	}
+}
+
+/*Setting up Header*/
+
+/*End Setting up Header*/
+
+
+@media (min-width: 768px) {
+	
+}
+
+@media (min-width: 992px) {
+	
+}
+
+@media (min-width: 1200px) {
+
+}
